@@ -27,6 +27,10 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Kernel
 TARGET_KERNEL_CONFIG := gts28velte_defconfig
 
+# Legacy BLOB Support
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /system/vendor/bin/hw/rild=27
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
