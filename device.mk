@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/audio/mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9330.xml
 
+# Display
+SF_PRIMARY_DISPLAY_ORIENTATION := 270
+
 # Grip Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/grippower.info:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/grippower.info
