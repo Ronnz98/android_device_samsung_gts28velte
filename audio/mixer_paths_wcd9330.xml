@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <mixer>
-    <!-- GTS2 8" WIFI ================================================ -->
+    <!-- GTS2 8" LTE ================================================ -->
     <!-- These are the initial mixer settings -->
     <!-- reset RX/TX Start -->
     <ctl name="Voice Rx Device Mute" id="0" value="0" />
