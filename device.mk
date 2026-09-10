@@ -43,9 +43,5 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libshims_rild_socket
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl
-
 # Inherit from msm8976-common
 $(call inherit-product, device/samsung/msm8976-common/msm8976.mk)
